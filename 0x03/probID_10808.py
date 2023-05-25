@@ -6,11 +6,13 @@ Created on Sun May 21 14:50:09 2023
 """
 
 # alphabet = 'abcdefghijklmnopqrstuvwxyz'
+
 # alphabet_list = list()
 # ps = 'aaazzz'
 
     
-# for i in range(0,len(alphabet)):
+# for i in range(ord('a'), ord('z') + 1):
+    letter = chr(i)
 #     cnt = 0
 #     for p in ps:
 #         if alphabet[i] == p:
