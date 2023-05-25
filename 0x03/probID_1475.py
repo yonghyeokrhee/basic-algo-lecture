@@ -4,11 +4,10 @@ Created on Tue May 23 18:20:38 2023
 
 @author: joshu
 """
+from collections import Counter
 
-a = '69696'
-myList = [0] * 10
-for i in a:
-    myList[int(i)] +=1
+myList = Counter('69696')
+# todo: python 구현
 myList[6] = (myList[6] + myList[9])//2 +  (myList[6] + myList[9])%2
 del myList[9]
 print(myList)
